@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="jumbo" class="jumbotron">
+        <div class="container">
+                <p id="space-heading">SPACE</p>
+                <p id="hangman-heading">HANGMAN</p>
+                
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="game-main" class="col-md-8">
+                    <h3 id="press-key">Press any key to get started!</h3>
+                    <p id="big-hr-style">\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</p><br>
+                <div class="row">
+                    <div class="col-md-12">
+                        left-subcontainer
+                    </div>
+                </div>
+            </div>
+                
+            
+            <div id="game-menus" class="col-md-3">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="menu-headings">WINS: </h4>
+                        <p id="hr-style">///////////////////////////</p><br>
+                        
+                        <h4 class="menu-headings">REMAINING GUESSES: </h4>
+                        <p id="hr-style">///////////////////////////</p><br>
+                        
+                        <h4 class="menu-headings">LETTERS GUESSED:</h4>
+                            <div id="letters">
+                            <p><a id="a">A</a><a id="b">B</a><a id="c">C</a><a id="d">D</a><a id="e">E</a><a id="f">F</a><a id="g">G</a></p>
+                            <p><a id="h">H</a><a id="i">I</a><a id="j">J</a><a id="k">K</a><a id="l">L</a><a id="m">M</a><a id="n">N</a></p>
+                            <p><a id="o">O</a><a id="p">P</a><a id="q">Q</a><a id="r">R</a><a id="s">S</a><a id="t">T</a><a id="u">U</a></p>
+                            <p><a id="v">V</a><a id="w">W</a><a id="x">X</a><a id="y">Y</a><a id="z">Z</a></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
